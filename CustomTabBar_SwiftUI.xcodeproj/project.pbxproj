@@ -13,6 +13,8 @@
 		F627731D281C13EB00C3DF4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F627731C281C13EB00C3DF4B /* Preview Assets.xcassets */; };
 		F627731F281C13EB00C3DF4B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627731E281C13EB00C3DF4B /* Persistence.swift */; };
 		F6277322281C13EB00C3DF4B /* CustomTabBar_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6277320281C13EB00C3DF4B /* CustomTabBar_SwiftUI.xcdatamodeld */; };
+		F627732A281C1B5B00C3DF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6277329281C1B5B00C3DF4B /* CustomTabBar.swift */; };
+		F627732D281C1C4300C3DF4B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627732C281C1C4300C3DF4B /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F627731C281C13EB00C3DF4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F627731E281C13EB00C3DF4B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F6277321281C13EB00C3DF4B /* CustomTabBar_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomTabBar_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		F6277329281C1B5B00C3DF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		F627732C281C1C4300C3DF4B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				F6277315281C13E300C3DF4B /* CustomTabBar_SwiftUIApp.swift */,
-				F6277317281C13E300C3DF4B /* ContentView.swift */,
+				F627732B281C1C3000C3DF4B /* Model */,
+				F6277328281C1B4000C3DF4B /* View */,
 				F6277319281C13EB00C3DF4B /* Assets.xcassets */,
 				F627731E281C13EB00C3DF4B /* Persistence.swift */,
 				F6277320281C13EB00C3DF4B /* CustomTabBar_SwiftUI.xcdatamodeld */,
@@ -71,6 +76,23 @@
 				F627731C281C13EB00C3DF4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6277328281C1B4000C3DF4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6277317281C13E300C3DF4B /* ContentView.swift */,
+				F6277329281C1B5B00C3DF4B /* CustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F627732B281C1C3000C3DF4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F627732C281C1C4300C3DF4B /* Tab.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F627731F281C13EB00C3DF4B /* Persistence.swift in Sources */,
+				F627732A281C1B5B00C3DF4B /* CustomTabBar.swift in Sources */,
 				F6277318281C13E300C3DF4B /* ContentView.swift in Sources */,
+				F627732D281C1C4300C3DF4B /* Tab.swift in Sources */,
 				F6277322281C13EB00C3DF4B /* CustomTabBar_SwiftUI.xcdatamodeld in Sources */,
 				F6277316281C13E300C3DF4B /* CustomTabBar_SwiftUIApp.swift in Sources */,
 			);
